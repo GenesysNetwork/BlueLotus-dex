@@ -44,12 +44,12 @@ const Stats = () => {
         {t('Multichain. Easy and Fast.')}
       </Heading>
       <Text textAlign="center" color="textSubtle">
-        {t('LOTUS DAO – APYs that makes you Fly .')}
+        {t('Genesys (GSYS) Governance.')}
       </Text>
       <Flex flexWrap="wrap">
         <Text display="inline" textAlign="center" color="textSubtle" mb="20px">
           {t(
-            'Blue Lotus (BLUEG), the Governance token of the Future, Genesys (GSYS), the most valuable token on the Market.',
+            'Utility token of Blue Lotus Dao and Genesys Network Ecosystem, making it the most valuable token on the market.',
           )}
           {/* {entrusting}
           <>{tvl ? <>{tvlString}</> : <Skeleton display="inline-block" height={16} width={70} mt="2px" />}</>
