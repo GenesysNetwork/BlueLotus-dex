@@ -113,9 +113,9 @@ const PoolStatsInfo: React.FC<ExpandedFooterProps> = ({
       )}
       {vaultKey && <PerformanceFee userData={userData} performanceFeeAsDecimal={performanceFeeAsDecimal} />}
       <Flex mb="2px" justifyContent={alignLinksToRight ? 'flex-end' : 'flex-start'}>
-        <LinkExternal href={`/info/token/${earningToken.address}`} bold={false} small>
+        {/* <LinkExternal href={`/info/token/${earningToken.address}`} bold={false} small>
           {t('See Token Info')}
-        </LinkExternal>
+        </LinkExternal> */}
       </Flex>
       {!vaultKey && (
         <Flex mb="2px" justifyContent={alignLinksToRight ? 'flex-end' : 'flex-start'}>
@@ -126,9 +126,9 @@ const PoolStatsInfo: React.FC<ExpandedFooterProps> = ({
       )}
       {vaultKey && (
         <Flex mb="2px" justifyContent={alignLinksToRight ? 'flex-end' : 'flex-start'}>
-          <LinkExternal href="https://docs.pancakeswap.finance/products/syrup-pool/new-cake-pool" bold={false} small>
+          {/* <LinkExternal href="https://docs.pancakeswap.finance/products/syrup-pool/new-cake-pool" bold={false} small>
             {t('View Tutorial')}
-          </LinkExternal>
+          </LinkExternal> */}
         </Flex>
       )}
       {poolContractAddress && (

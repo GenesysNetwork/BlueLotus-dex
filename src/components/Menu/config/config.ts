@@ -131,7 +131,8 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     items: [
       {
         label: t('Analitycs'),
-        href: '/info',
+        // href: '/info',
+        href: '#',
       },
       {
         label: t('IFO'),

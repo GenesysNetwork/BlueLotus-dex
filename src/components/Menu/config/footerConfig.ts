@@ -57,7 +57,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       // },
       {
         label: t('Troubleshooting'),
-        href: 'Genesys.dev@genesys.network',
+        href: 'https://genesys-blockchain.gitbook.io/genesys-blockchain/contact-us/troubleshooting',
       },
       // {
       //   label: t('Guides'),

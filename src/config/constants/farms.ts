@@ -20,19 +20,19 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 2,
-    v1pid: 251,
+    pid: 1, // config this
+    v1pid: 1, // config this
     lpSymbol: 'GSYS-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+      56: '0x30B2Ab2DEcF53F25030C784046f8038BF8DE6107', // gsys bnb lp
     },
     token: serializedTokens.gsys,
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 3,
-    v1pid: 252,
+    pid: 2,
+    v1pid: 2,
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
