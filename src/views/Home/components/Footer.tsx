@@ -66,8 +66,8 @@ const topLeftImage = {
   path: '/images/home/flying-pancakes/',
   attributes: [
     // { src: '1-bottom', alt: 'Genesys flying on the bottom' },
-    { src: '1-left', alt: 'Genesys flying on the left' },
-    { src: '1-top', alt: 'Genesys flying on the top' },
+    { src: '2-bottom', alt: 'Genesys flying on the left' },
+    { src: '2-right', alt: 'Genesys flying on the top' },
   ],
 }
 
@@ -113,7 +113,7 @@ const Footer = () => {
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://docs.genesys.network/">
+        <Link external href="https://genesys-blockchain.gitbook.io/genesys-blockchain/">
           {t('Learn how to start')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}

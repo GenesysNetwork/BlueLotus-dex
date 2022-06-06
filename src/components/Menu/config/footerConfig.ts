@@ -7,12 +7,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'support@ganesys.network',
-        isHighlighted: true,
+        href: 'https://genesys-blockchain.gitbook.io/genesys-blockchain/contact-us/troubleshooting/customer-support',
+        // isHighlighted: true,
       },
       {
         label: t('Brand'),
-        href: 'https://docs.genesys.network/',
+        href: 'https://genesys-blockchain.gitbook.io/genesys-blockchain/contact-us/brand-and-logos',
       },
       // {
       //   label: t('Blog'),

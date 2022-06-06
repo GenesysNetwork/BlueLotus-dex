@@ -8,7 +8,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "support@ganesys.network",
+        href: "https://app.gitbook.com/o/oclqwfCzZh44iHNE57hi/s/j9TewAx2uVX92ewVYaLW/contact-us/troubleshooting/customer-support",
       },
       // {
       //   label: "Blog",

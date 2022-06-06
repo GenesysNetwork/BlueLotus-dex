@@ -4,7 +4,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'Genesys Network',
   description: 'The best next generation AMM on BNB Chain. Earn GSYS through yield farming.',
-  image: 'https://genesys.network/images/logo.png',
+  image: 'https://bluelotusdao.org/logo.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {

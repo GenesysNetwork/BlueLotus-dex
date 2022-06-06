@@ -37,7 +37,7 @@ export const connectorsByName = {
     return new WalletLinkConnector({
       url: rpcUrl,
       appName: 'Genesys Network',
-      appLogoUrl: 'https://genesys.network/logo.png',
+      appLogoUrl: 'https://bluelotusdao.org/logo.png',
       supportedChainIds: [ChainId.MAINNET, ChainId.TESTNET],
     })
   },

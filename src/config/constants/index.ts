@@ -125,5 +125,6 @@ export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = BigNumber.from(500000)
 
 export const EXCHANGE_DOCS_URLS = 'https://docs.genesys.network/products/genesys-exchange'
 export const LIMIT_ORDERS_DOCS_URL = 'https://docs.genesys.network/products/genesys-exchange/limit-orders'
+export const DISCORD_URL = 'https://discord.com/invite/rnpnVDaKTn'
 
 export const GALAXY_NFT_CAMPAIGN_ID = 'GCpp2UUxqQ'

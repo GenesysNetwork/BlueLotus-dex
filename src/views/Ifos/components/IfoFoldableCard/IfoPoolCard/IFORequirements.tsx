@@ -22,7 +22,7 @@ const NotOkNFT = ({ admissionProfile }) => {
         <>
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://genesys.network/nfts/collections/${admissionProfile}`}
+            href={`https://bluelotusdao.org/nfts/collections/${admissionProfile}`}
           >
             {t('Genesys Squad NFT')}
           </LinkExternal>
@@ -50,7 +50,7 @@ const NotOkProfilePoints = ({ pointThreshold }) => {
           <br />
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://genesys.network/nfts/profile/${account}/achievements/`}
+            href={`https://bluelotusdao.org/nfts/profile/${account}/achievements/`}
           >
             {t('Genesys Profile')}
           </LinkExternal>

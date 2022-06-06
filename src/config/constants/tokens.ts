@@ -29,7 +29,7 @@ export const mainnetTokens = defineTokens({
     18,
     'GSYS',
     'Genesys Token',
-    'https://genesys.network/',
+    'https://bluelotusdao.org/',
   ),
 
   cake: new Token(
