@@ -14,10 +14,10 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         label: t('Brand'),
         href: 'https://genesys-blockchain.gitbook.io/genesys-blockchain/contact-us/brand-and-logos',
       },
-      // {
-      //   label: t('Blog'),
-      //   href: 'https://medium.com/pancakeswap',
-      // },
+      {
+        label: t('Bussiness Partnerships'),
+        href: 'https://genesys-blockchain.gitbook.io/genesys-blockchain/contact-us/business-partnerships',
+      },
       // {
       //   label: t('Community'),
       //   href: 'https://docs.genesys.network/contact-us/telegram',
