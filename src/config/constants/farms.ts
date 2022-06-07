@@ -20,7 +20,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 1, // config this
+    pid: 2, // config this
     v1pid: 1, // config this
     lpSymbol: 'GSYS-BNB LP',
     lpAddresses: {
@@ -31,16 +31,39 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 2,
+    pid: 3,
     v1pid: 2,
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      56: '0x8e6C329820dCdd49506Ac3CB1874337f014537b9', // busd bnb lp
     },
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   },
+  {
+    pid: 1,
+    v1pid: 3,
+    lpSymbol: 'GSYS-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0xCbCb0D46aEfd1e74D2ad2489b0b812f76bceB3C2', // gsys busd lp
+    },
+    token: serializedTokens.gsys,
+    quoteToken: serializedTokens.busd,
+  },
+  {
+    pid: 5,
+    v1pid: 4,
+    lpSymbol: 'GSYS-USDT LP',
+    lpAddresses: {
+      97: '',
+      56: '0xA3A70Ddf8dEd09Ab29bc1e25B78169DdeC3724F8', // gsys usdt lp
+    },
+    token: serializedTokens.gsys,
+    quoteToken: serializedTokens.usdt,
+  },
+
   // //    * V3 by order of release (some may be out of PID order due to multiplier boost)
   // {
   //   pid: 38,
