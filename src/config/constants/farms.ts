@@ -6,7 +6,7 @@ const serializedTokens = serializeTokens()
 
 const farms: SerializedFarmConfig[] = [
   /**
-   * These 3 farms (PID 0, 2, 3) should always be at the top of the file.
+   * These 3 farms (PID 0, 2, 4) should always be at the top of the file.
    */
   {
     pid: 0, // version 2
@@ -21,7 +21,7 @@ const farms: SerializedFarmConfig[] = [
   },
   {
     pid: 2, // version 2
-    v1pid: 1, // version 1
+    v1pid: 1, // version 251
     lpSymbol: 'GSYS-BNB LP',
     lpAddresses: {
       97: '',
@@ -31,8 +31,10 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 3, // version 2
-    v1pid: 2, // version 1
+    // pid 3 mockbep20
+
+    pid: 4, // version 2
+    v1pid: 2, // version 252
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
@@ -41,28 +43,28 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   },
-  // {
-  //   pid: 1, // version 2
-  //   v1pid: 3, // version 1
-  //   lpSymbol: 'GSYS-BUSD LP',
-  //   lpAddresses: {
-  //     97: '',
-  //     56: '0xCbCb0D46aEfd1e74D2ad2489b0b812f76bceB3C2', // gsys busd lp
-  //   },
-  //   token: serializedTokens.gsys,
-  //   quoteToken: serializedTokens.busd,
-  // },
-  // {
-  //   pid: 5, // version 2
-  //   v1pid: 4, // version 1
-  //   lpSymbol: 'GSYS-USDT LP',
-  //   lpAddresses: {
-  //     97: '',
-  //     56: '0xA3A70Ddf8dEd09Ab29bc1e25B78169DdeC3724F8', // gsys usdt lp
-  //   },
-  //   token: serializedTokens.gsys,
-  //   quoteToken: serializedTokens.usdt,
-  // },
+  {
+    pid: 5, // version 2
+    // v1pid: 3, // version 1
+    lpSymbol: 'GSYS-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0xCbCb0D46aEfd1e74D2ad2489b0b812f76bceB3C2', // gsys busd lp
+    },
+    token: serializedTokens.gsys,
+    quoteToken: serializedTokens.busd,
+  },
+  {
+    pid: 6, // version 2
+    // v1pid: 4, // version 1
+    lpSymbol: 'GSYS-USDT LP',
+    lpAddresses: {
+      97: '',
+      56: '0xA3A70Ddf8dEd09Ab29bc1e25B78169DdeC3724F8', // gsys usdt lp
+    },
+    token: serializedTokens.gsys,
+    quoteToken: serializedTokens.usdt,
+  },
 
   // //    * V3 by order of release (some may be out of PID order due to multiplier boost)
   // {

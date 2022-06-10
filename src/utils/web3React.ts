@@ -36,7 +36,7 @@ export const connectorsByName = {
     const { WalletLinkConnector } = await import('@web3-react/walletlink-connector')
     return new WalletLinkConnector({
       url: rpcUrl,
-      appName: 'Genesys Network',
+      appName: 'Blue Lotus',
       appLogoUrl: 'https://bluelotusdao.org/logo.png',
       supportedChainIds: [ChainId.MAINNET, ChainId.TESTNET],
     })

@@ -274,7 +274,7 @@
   },
   {
     "inputs": [],
-    "name": "calculateTotalPendingCakeRewards",
+    "name": "calculateTotalPendingGsysRewards",
     "outputs": [
       {
         "internalType": "uint256",

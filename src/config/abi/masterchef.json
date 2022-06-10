@@ -210,7 +210,7 @@
         "type": "uint256"
       }
     ],
-    "name": "UpdateCakeRate",
+    "name": "UpdateGsysRate",
     "type": "event"
   },
   {
@@ -421,7 +421,7 @@
         "type": "bool"
       }
     ],
-    "name": "cakePerBlock",
+    "name": "gsysPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -434,7 +434,7 @@
   },
   {
     "inputs": [],
-    "name": "cakePerBlockToBurn",
+    "name": "gsysPerBlockToBurn",
     "outputs": [
       {
         "internalType": "uint256",
@@ -447,7 +447,7 @@
   },
   {
     "inputs": [],
-    "name": "cakeRateToBurn",
+    "name": "gsysRateToBurn",
     "outputs": [
       {
         "internalType": "uint256",
@@ -460,7 +460,7 @@
   },
   {
     "inputs": [],
-    "name": "cakeRateToRegularFarm",
+    "name": "gsysRateToRegularFarm",
     "outputs": [
       {
         "internalType": "uint256",
@@ -473,7 +473,7 @@
   },
   {
     "inputs": [],
-    "name": "cakeRateToSpecialFarm",
+    "name": "gsysRateToSpecialFarm",
     "outputs": [
       {
         "internalType": "uint256",
@@ -818,7 +818,7 @@
         "type": "uint256"
       }
     ],
-    "name": "updateCakeRate",
+    "name": "UpdateGsysRate",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

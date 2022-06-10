@@ -11,9 +11,9 @@ const config = [
         no participation fee.
       </Trans>,
       <Trans>
-        In the Public Sale, everyone with an active Genesys Network profile can commit. However the maximum amount of
-        GSYS user can commit, is equal to the average GSYS balance in the IFO GSYS pool prior to the IFO. And there’s a
-        fee for participation: see below.
+        In the Public Sale, everyone with an active Blue Lotus profile can commit. However the maximum amount of GSYS
+        user can commit, is equal to the average GSYS balance in the IFO GSYS pool prior to the IFO. And there’s a fee
+        for participation: see below.
       </Trans>,
     ],
   },
@@ -25,7 +25,7 @@ const config = [
         We recommend you to check if you are eligible to participate in the Private Sale first. In the Public Sale, if
         the amount you commit is too small, you may not receive a meaningful amount of IFO tokens.
       </Trans>,
-      <Trans>Just remember you need an active Genesys Network Profile in order to participate.</Trans>,
+      <Trans>Just remember you need an active Blue Lotus Profile in order to participate.</Trans>,
     ],
   },
   {

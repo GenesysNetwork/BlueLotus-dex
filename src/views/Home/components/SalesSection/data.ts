@@ -29,7 +29,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
 
 export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Earn passive income with crypto.'),
-  bodyText: t('Genesys Network makes it easy to make your crypto work for you.'),
+  bodyText: t('Blue Lotus makes it easy to make your crypto work for you.'),
   reverse: true,
   primaryButton: {
     to: '/farms',
@@ -54,7 +54,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t(' GSYS makes our world go round.'),
   bodyText: t(
-    'GSYS is the Utility token that fuels the pump and thrust the Genesys Network Ecosystem. Earn GENESYS from Farms and Pools, or buy it on the exchange.',
+    'GSYS is the Utility token that fuels the pump and thrust the Blue Lotus Ecosystem. Earn GENESYS from Farms and Pools, or buy it on the exchange.',
   ),
   reverse: false,
   primaryButton: {

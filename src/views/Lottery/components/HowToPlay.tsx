@@ -353,7 +353,7 @@ const HowToPlay: React.FC = () => {
           <Text>
             {t('Check our in-depth guide on')}{' '}
             <InlineLink href="https://docs.genesys.network/products/lottery/lottery-guide">
-              {t('how to play the Genesys Network lottery!')}
+              {t('how to play the Blue Lotus lottery!')}
             </InlineLink>
           </Text>
         </Flex>

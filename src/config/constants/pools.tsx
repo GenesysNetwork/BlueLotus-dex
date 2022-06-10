@@ -53,7 +53,7 @@ const pools: SerializedPoolConfig[] = [
     earningToken: serializedTokens.gsys,
     contractAddress: {
       97: '',
-      56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652', // MasterChefV2 address
+      56: '0xe76Ae05c56EcC8182C34ACD88729A266D81ab54b', // MasterChefV2 address
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,

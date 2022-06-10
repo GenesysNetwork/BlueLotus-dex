@@ -60,7 +60,7 @@ export const fetchFarmsPublicDataAsync = createAsyncThunk<
       },
       {
         address: masterChefAddress,
-        name: 'cakePerBlock',
+        name: 'gsysPerBlock',
         params: [true],
       },
     ]

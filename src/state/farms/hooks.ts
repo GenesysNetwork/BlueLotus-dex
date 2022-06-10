@@ -50,9 +50,9 @@ export const usePollFarmsWithUserData = () => {
 /**
  * Fetches the "core" farm data used globally
  * 2 = GSYS-BNB LP
- * 3 = BUSD-BNB LP
+ * 4 = BUSD-BNB LP
  */
-const coreFarmPIDs = CHAIN_ID === String(ChainId.MAINNET) ? [2, 3] : [1, 2]
+const coreFarmPIDs = CHAIN_ID === String(ChainId.MAINNET) ? [2, 4] : [1, 2]
 export const usePollCoreFarmData = () => {
   const dispatch = useAppDispatch()
 

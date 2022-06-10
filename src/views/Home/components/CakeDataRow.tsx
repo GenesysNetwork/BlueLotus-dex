@@ -132,15 +132,15 @@ const CakeDataRow = () => {
       <Flex flexDirection="column" style={{ gridArea: 'a' }}>
         <Text color="textSubtle">{t('Circulating Supply')}</Text>
         {circulatingSupply ? (
-          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={gsysSupply} />
+          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={circulatingSupply} />
         ) : (
           <Skeleton height={24} width={126} my="4px" />
         )}
       </Flex>
       <StyledColumn noMobileBorder style={{ gridArea: 'b' }}>
         <Text color="textSubtle">{t('Total supply')}</Text>
-        {gsysSupply ? (
-          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={gsysSupply} />
+        {cakeSupply ? (
+          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={cakeSupply} />
         ) : (
           <>
             <div ref={observerRef} />

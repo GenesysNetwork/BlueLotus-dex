@@ -82,41 +82,41 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
   //     },
   //   ],
   // },
+  // {
+  //   label: t('Win'),
+  //   href: '#',
+  //   icon: TrophyIcon,
+  //   fillIcon: TrophyFillIcon,
+  //   items: [
+  //     {
+  //       label: t('Trading Competition'),
+  //       href: '#',
+  //       hideSubNav: true,
+  //     },
+  //     {
+  //       label: t('Prediction (BETA)'),
+  //       href: '#',
+  //     },
+  //     // {
+  //     //   label: t('Lottery'),
+  //     //   href: '/lottery',
+  //     // },
+  //   ],
+  // },
   {
-    label: t('Win'),
-    href: '#',
-    icon: TrophyIcon,
-    fillIcon: TrophyFillIcon,
-    items: [
-      {
-        label: t('Trading Competition'),
-        href: '#',
-        hideSubNav: true,
-      },
-      {
-        label: t('Prediction (BETA)'),
-        href: '#',
-      },
-      // {
-      //   label: t('Lottery'),
-      //   href: '/lottery',
-      // },
-    ],
-  },
-  {
-    label: t('Genesys of Blue Marketplace'),
+    label: t('Marketplace'),
     href: `#`,
     icon: NftIcon,
     fillIcon: NftFillIcon,
     items: [
       {
-        label: t('Marketplace'),
+        label: t('Genesys of Blue'),
         href: `#`,
       },
-      {
-        label: t('Genesys of Blue NFT Collection'),
-        href: `#`,
-      },
+      // {
+      //   label: t('Genesys of Blue NFT Collection'),
+      //   href: `#`,
+      // },
       {
         label: t('Collab'),
         href: `#`,
@@ -124,7 +124,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     ],
   },
   {
-    label: '',
+    label: 'Info',
     href: '#',
     icon: MoreIcon,
     hideSubNav: true,

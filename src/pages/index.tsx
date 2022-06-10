@@ -27,10 +27,10 @@ const IndexPage = ({ totalTx30Days, addressCount30Days, tvl }) => {
 }
 
 // Values fetched from TheGraph and BitQuery jan 24, 2022
-const txCount = 54780336
-const addressCount = 4425459
+const txCount = 0 // 54780336
+const addressCount = 0 // 4425459
 
-const tvl = 6082955532.115718
+const tvl = 0 // 6082955532.115718
 
 export const getStaticProps: GetStaticProps = async () => {
   const totalTxQuery = gql`
@@ -115,7 +115,7 @@ export const getStaticProps: GetStaticProps = async () => {
         pancakeFactories(first: 1) {
           totalLiquidityUSD
         }
-        token(id: "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82") {
+        token(id: "0xc073eb514B96cFbe470b0d23e0a620BaE73ee165") {
           derivedUSD
         }
       }

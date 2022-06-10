@@ -30,7 +30,7 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
 
   const pageMeta = getCustomMeta(pathname, t) || {}
   const { title, description, image } = { ...DEFAULT_META, ...pageMeta }
-  let pageTitle = cakePriceUsdDisplay ? [title, cakePriceUsdDisplay].join(' - ') : title
+  let pageTitle = cakePriceUsdDisplay ? [title, cakePriceUsdDisplay].join(' - ') : title // price on title vlad
   if (symbol) {
     pageTitle = [symbol, title].join(' - ')
   }

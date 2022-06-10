@@ -54,20 +54,17 @@ function MyApp(props: AppProps) {
         />
         <meta
           name="description"
-          content="Cheaper and faster than Uniswap? Discover Genesys Network, the leading DEX on BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for GSYS."
+          content="Cheaper and faster than Uniswap? Discover Blue Lotus, the leading DEX on BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for GSYS."
         />
         <meta name="theme-color" content="#336699" />
         <meta name="twitter:image" content="https://bluelotusdao.org/images/hero.webp" />
         <meta
           name="twitter:description"
-          content="The best AMM on BNB Chain! Earn GSYS through yield farming or win it in the Lottery, then stake it in Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by Genesys Network), NFTs, and more, on a platform you can trust."
+          content="The best AMM on BNB Chain! Earn GSYS through yield farming or win it in the Lottery, then stake it in Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by Blue Lotus), NFTs, and more, on a platform you can trust."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Genesys Network - A next evolution DeFi exchange on BNB Smart Chain (BSC)"
-        />
-        <title>Genesys Network</title>
+        <meta name="twitter:title" content="Blue Lotus - A next evolution DeFi exchange on BNB Smart Chain (BSC)" />
+        <title>Blue Lotus</title>
       </Head>
       <Providers store={store}>
         <Blocklist>

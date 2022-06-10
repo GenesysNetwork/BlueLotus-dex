@@ -35,9 +35,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
       title: t('Activate your profile'),
-      bodyText: [
-        t('You’ll need an active Genesys Network Profile to buy Minting Tickets and mint a Genesys Squad NFT!'),
-      ],
+      bodyText: [t('You’ll need an active Blue Lotus Profile to buy Minting Tickets and mint a Genesys Squad NFT!')],
       buttons: (
         <>
           <ActivateProfileButton userStatus={userStatus} t={t} />

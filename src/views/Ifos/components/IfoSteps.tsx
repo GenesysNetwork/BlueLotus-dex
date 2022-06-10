@@ -150,7 +150,7 @@ const IfoSteps: React.FC<TypeProps> = () => {
               {t('Activate your Profile')}
             </Heading>
             <Text color="textSubtle" small mb="16px">
-              {t('You’ll need an active Genesys Network Profile to take part in an IFO!')}
+              {t('You’ll need an active Blue Lotus Profile to take part in an IFO!')}
             </Text>
             {renderAccountStatus()}
           </CardBody>
