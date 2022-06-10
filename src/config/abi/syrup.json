@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "contract CakeToken",
-        "name": "_cake",
+        "name": "_gsys",
         "type": "address"
       }
     ],
