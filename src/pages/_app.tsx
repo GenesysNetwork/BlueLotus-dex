@@ -74,7 +74,7 @@ function MyApp(props: AppProps) {
           <GlobalCheckClaimStatus excludeLocations={[]} />
           <PersistGate loading={null} persistor={persistor}>
             <Updaters />
-            {/* <App {...props} /> */}
+            <App {...props} />
           </PersistGate>
         </Blocklist>
       </Providers>
