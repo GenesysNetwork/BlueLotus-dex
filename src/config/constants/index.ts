@@ -100,6 +100,7 @@ export const BLOCKED_ADDRESSES: string[] = [
   '0xA7e5d5A720f06526557c513402f2e6B5fA20b008',
   '0x8576aCC5C05D6Ce88f4e49bf65BdF0C62F91353C',
   '0xe8B1DC0557818f32e8336122964E35cefCdC10d8', // genesys bad user
+  '0x9c7770E88dd4c4F972283E97B4FeBD2991e0E05B', // test FL2021
 ]
 
 export { default as farmsConfig } from './farms'

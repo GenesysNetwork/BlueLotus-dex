@@ -19,7 +19,15 @@ export function Blocklist({ children }: { children: ReactNode }) {
   const { account } = useActiveWeb3React()
   const blocked: boolean = useMemo(() => Boolean(account && BLOCKED_ADDRESSES.indexOf(account) !== -1), [account])
   if (blocked) {
-    return <div>Blocked address</div>
+    return <h1 style={container}>Blocked address</h1>
   }
   return <>{children}</>
+}
+// Styling
+const container = {
+  width: 500,
+  margin: 'auto',
+  color: 'red',
+  fontSize: '2em',
+  fontWeight: 'bold',
 }
