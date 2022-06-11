@@ -6,22 +6,22 @@ const serializedTokens = serializeTokens()
 
 const farms: SerializedFarmConfig[] = [
   /**
-   * These 3 farms (PID 0, 2, 4) should always be at the top of the file.
+   * These 3 farms (PID 0, 2, 4 of MCV2) should always be at the top of the file.
    */
   {
-    pid: 0, // version 2
-    v1pid: 0, // version 1
+    pid: 0, // Masterchef version 2
+    v1pid: 0, // Masterchef version 1 pid=0
     lpSymbol: 'GSYS',
     lpAddresses: {
       97: '',
-      56: '0xc073eb514B96cFbe470b0d23e0a620BaE73ee165',
+      56: '0xc073eb514B96cFbe470b0d23e0a620BaE73ee165', // token gsys
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 2, // version 2
-    v1pid: 1, // version 251
+    pid: 2, // Masterchef version 2
+    v1pid: 1, // Masterchef version 1 pid=251
     lpSymbol: 'GSYS-BNB LP',
     lpAddresses: {
       97: '',
@@ -31,10 +31,8 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    // pid 3 mockbep20
-
-    pid: 4, // version 2
-    v1pid: 2, // version 252
+    pid: 4, // Masterchef version 2
+    v1pid: 2, // Masterchef version 1 pid=252
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
@@ -44,8 +42,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 5, // version 2
-    // v1pid: 3, // version 1
+    pid: 5, // Masterchef version 2
     lpSymbol: 'GSYS-BUSD LP',
     lpAddresses: {
       97: '',
@@ -55,8 +52,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 6, // version 2
-    // v1pid: 4, // version 1
+    pid: 6, // Masterchef version 2
     lpSymbol: 'GSYS-USDT LP',
     lpAddresses: {
       97: '',
@@ -65,6 +61,8 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.gsys,
     quoteToken: serializedTokens.usdt,
   },
+
+  // pid 3 on MCV1 = MASTERCHEF_PID_3_MOCKBEP20
 
   // //    * V3 by order of release (some may be out of PID order due to multiplier boost)
   // {

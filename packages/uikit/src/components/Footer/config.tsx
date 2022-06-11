@@ -80,7 +80,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/BlueLotusDao",
+    href: "https://twitter.com/genesisofblue",
   },
   {
     label: "Telegram",
