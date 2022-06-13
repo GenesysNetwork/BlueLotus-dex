@@ -133,7 +133,7 @@ const IfoPoolVaultCardDesktop: React.FC<IfoPoolVaultCardDesktopProps> = ({ accou
         </Box>
         <Box mt="24px">
           <Flex alignItems="center" justifyContent="space-between">
-            <Text fontSize="14px">{`${t('Recent CAKE profit')}:`}</Text>
+            <Text fontSize="14px">{`${t('RECENT GSYS PROFIT')}:`}</Text>
             <Balance
               bold
               fontSize="14px"

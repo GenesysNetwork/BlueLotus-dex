@@ -21,7 +21,7 @@ const StyledCell = styled(BaseCell)`
 const AutoEarningsCell: React.FC<AutoEarningsCellProps> = ({ hasEarnings, earningTokenBalance }) => {
   const { t } = useTranslation()
   const { isMobile } = useMatchBreakpoints()
-  const labelText = t('Recent CAKE profit')
+  const labelText = t('RECENT GSYS PROFIT')
 
   return (
     <StyledCell role="cell">
