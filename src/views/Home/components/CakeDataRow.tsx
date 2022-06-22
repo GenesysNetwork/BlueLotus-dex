@@ -62,7 +62,7 @@ const Grid = styled.div`
   }
 `
 
-const emissionsPerBlock = 3
+const emissionsPerBlock = 3.0
 
 /**
  * User (Planet Finance) built a contract on top of our original manual CAKE pool,
@@ -72,7 +72,7 @@ const emissionsPerBlock = 3
  * https://twitter.com/PancakeSwap/status/1523913527626702849
  * https://bscscan.com/tx/0xd5ffea4d9925d2f79249a4ce05efd4459ed179152ea5072a2df73cd4b9e88ba7
  */
-const planetFinanceBurnedTokensWei = BigNumber.from('637407922445268000000000')
+const planetFinanceBurnedTokensWei = BigNumber.from('0')
 const cakeVault = getCakeVaultV2Contract()
 
 const CakeDataRow = () => {
@@ -80,8 +80,7 @@ const CakeDataRow = () => {
   const { observerRef, isIntersecting } = useIntersectionObserver()
   const [loadData, setLoadData] = useState(false)
   const {
-    data: { gsysSupply, cakeSupply, burnedBalance, circulatingSupply } = {
-      gsysSupply: 0,
+    data: { cakeSupply, burnedBalance, circulatingSupply } = {
       cakeSupply: 0,
       burnedBalance: 0,
       circulatingSupply: 0,
@@ -107,7 +106,6 @@ const CakeDataRow = () => {
       const circulating = totalSupply.sub(totalBurned.add(totalLockedAmount))
 
       return {
-        gsysSupply: totalSupply ? +formatBigNumber(totalSupply) : 0,
         cakeSupply: totalSupply && burned ? +formatBigNumber(totalSupply.sub(totalBurned)) : 0,
         burnedBalance: burned ? +formatBigNumber(totalBurned) : 0,
         circulatingSupply: circulating ? +formatBigNumber(circulating) : 0,
@@ -151,7 +149,7 @@ const CakeDataRow = () => {
       <StyledColumn noMobileBorder style={{ gridArea: 'c' }}>
         <Text color="textSubtle">{t('Max Supply')}</Text>
 
-        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={gsysSupply} />
+        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={cakeSupply} />
       </StyledColumn>
       <StyledColumn noDesktopBorder style={{ gridArea: 'd' }}>
         <Text color="textSubtle">{t('Market cap')}</Text>
@@ -164,7 +162,7 @@ const CakeDataRow = () => {
       <StyledColumn style={{ gridArea: 'e' }}>
         <Text color="textSubtle">{t('Burned to date')}</Text>
         {burnedBalance ? (
-          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={0} /> // burnedBalance en after burn
+          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={burnedBalance} />
         ) : (
           <Skeleton height={24} width={126} my="4px" />
         )}
