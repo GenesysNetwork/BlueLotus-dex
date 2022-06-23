@@ -61,6 +61,27 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.gsys,
     quoteToken: serializedTokens.usdt,
   },
+  // new farms june 2022
+  {
+    pid: 7, // Masterchef version 2
+    lpSymbol: 'GSYS-CAKE LP',
+    lpAddresses: {
+      97: '',
+      56: '0x1e3a9F2da1dA390584b1C0A60D3801B4c7a1b551', // gsys cake lp
+    },
+    token: serializedTokens.gsys,
+    quoteToken: serializedTokens.cake,
+  },
+  {
+    pid: 8, // Masterchef version 2
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x45B34dEDbdCE9A6960766D552C5cAada872912CC', // gsys cake lp
+    },
+    token: serializedTokens.cake,
+    quoteToken: serializedTokens.wbnb,
+  },
 
   // pid 3 on MCV1 = MASTERCHEF_PID_3_MOCKBEP20
 
