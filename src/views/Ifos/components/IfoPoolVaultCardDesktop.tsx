@@ -89,10 +89,10 @@ const IfoPoolVaultCardDesktop: React.FC<IfoPoolVaultCardDesktopProps> = ({ accou
         <StyledTokenContent justifyContent="space-between" alignItems="center">
           <Box ml="8px">
             <Text fontSize="24px" color="secondary" bold>
-              {t('IFO CAKE')}
+              {t('IFO GSYS')}
             </Text>
             <Text color="textSubtle" fontSize="14px">
-              {t('Stake CAKE to participate in IFO')}
+              {t('Stake GSYS to participate in IFO')}
             </Text>
           </Box>
           <TokenPairImage width={64} height={64} primaryToken={tokens.cake} secondaryToken={tokens.cake} />
@@ -103,12 +103,12 @@ const IfoPoolVaultCardDesktop: React.FC<IfoPoolVaultCardDesktopProps> = ({ accou
           <Flex flexDirection="column">
             <Text mb="16px">
               {t(
-                'This is the old IFO CAKE pool. Check out the brand new CAKE pool to learn how to earn CAKE rewards with higher APY while enjoying other benefits.',
+                'This is the old IFO GSYS pool. Check out the brand new GSYS pool to learn how to earn GSYS rewards with higher APY while enjoying other benefits.',
               )}
             </Text>
             <Flex ml="-34px">
               <Button onClick={handleOnClick} width="100%">
-                {isShowMigrationButton ? t('Migrate') : t('Go to new CAKE pool')}
+                {isShowMigrationButton ? t('Migrate') : t('Go to new GSYS pool')}
               </Button>
             </Flex>
           </Flex>
@@ -116,7 +116,7 @@ const IfoPoolVaultCardDesktop: React.FC<IfoPoolVaultCardDesktopProps> = ({ accou
         <Box>
           <Flex mb="4px">
             <Text fontSize="12px" color="secondary" bold mr="2px">
-              CAKE
+              GSYS
             </Text>
             <Text fontSize="12px" color="textSubtle" bold textTransform="uppercase">
               {t('Staked')}

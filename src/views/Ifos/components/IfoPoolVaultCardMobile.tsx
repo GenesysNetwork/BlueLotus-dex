@@ -100,16 +100,16 @@ const IfoPoolVaultCardMobile: React.FC<IfoPoolVaultCardMobileProps> = ({ account
             <TokenPairImage width={24} height={24} primaryToken={tokens.cake} secondaryToken={tokens.cake} />
             <Box ml="8px">
               <Text small bold>
-                {t('IFO CAKE')}
+                {t('IFO GSYS')}
               </Text>
               <Text color="textSubtle" fontSize="12px">
-                {t('Stake')} CAKE
+                {t('Stake')} GSYS
               </Text>
             </Box>
           </StyledTokenContent>
           <StyledTokenContent flexDirection="column" flex={1}>
             <Text color="textSubtle" fontSize="12px">
-              {t('%asset% Staked', { asset: 'CAKE' })}
+              {t('%asset% Staked', { asset: 'GSYS' })}
             </Text>
             <Balance small bold decimals={3} value={stakedBalance} />
           </StyledTokenContent>
@@ -123,12 +123,12 @@ const IfoPoolVaultCardMobile: React.FC<IfoPoolVaultCardMobileProps> = ({ account
               <Flex flexDirection="column">
                 <Text mb="16px">
                   {t(
-                    'This is the old IFO CAKE pool. Check out the brand new CAKE pool to learn how to earn CAKE rewards with higher APY while enjoying other benefits.',
+                    'This is the old IFO GSYS pool. Check out the brand new GSYS pool to learn how to earn GSYS rewards with higher APY while enjoying other benefits.',
                   )}
                 </Text>
                 <Flex ml="-34px">
                   <Button onClick={handleOnClick} width="100%">
-                    {isShowMigrationButton ? t('Migrate') : t('Go to new CAKE pool')}
+                    {isShowMigrationButton ? t('Migrate') : t('Go to new GSYS pool')}
                   </Button>
                 </Flex>
               </Flex>
@@ -137,7 +137,7 @@ const IfoPoolVaultCardMobile: React.FC<IfoPoolVaultCardMobileProps> = ({ account
               <Box>
                 <Flex mb="4px">
                   <Text fontSize="12px" color="secondary" bold mr="2px">
-                    CAKE
+                    GSYS
                   </Text>
                   <Text fontSize="12px" color="textSubtle" bold textTransform="uppercase">
                     {t('Staked')}
