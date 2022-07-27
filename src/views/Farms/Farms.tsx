@@ -3,7 +3,7 @@ import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
 import { Image, Heading, RowType, Toggle, Text, Button, ArrowForwardIcon, Flex, Link } from '@pancakeswap/uikit'
 import { ChainId } from '@genesysnetwork/sdk'
-import { NextLinkFromReactRouter } from 'components/NextLink'
+// import { NextLinkFromReactRouter } from 'components/NextLink'
 import styled from 'styled-components'
 import FlexLayout from 'components/Layout/Flex'
 import Page from 'components/Layout/Page'
@@ -101,19 +101,19 @@ const StyledImage = styled(Image)`
   margin-top: 58px;
 `
 
-const FinishedTextContainer = styled(Flex)`
-  padding-bottom: 32px;
-  flex-direction: column;
-  ${({ theme }) => theme.mediaQueries.md} {
-    flex-direction: row;
-  }
-`
+// const FinishedTextContainer = styled(Flex)`
+//   padding-bottom: 32px;
+//   flex-direction: column;
+//   ${({ theme }) => theme.mediaQueries.md} {
+//     flex-direction: row;
+//   }
+// `
 
-const FinishedTextLink = styled(Link)`
-  font-weight: 400;
-  white-space: nowrap;
-  text-decoration: underline;
-`
+// const FinishedTextLink = styled(Link)`
+//   font-weight: 400;
+//   white-space: nowrap;
+//   text-decoration: underline;
+// `
 
 const NUMBER_OF_FARMS_VISIBLE = 12
 
