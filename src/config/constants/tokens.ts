@@ -31,7 +31,14 @@ export const mainnetTokens = defineTokens({
     'Genesys Token',
     'https://bluelotusdao.org/',
   ),
-
+  shib: new Token(
+    MAINNET,
+    '0x2859e4544C4bB03966803b044A93563Bd2D0DD4D',
+    18,
+    'SHIBA',
+    'Shiba Token',
+    'https://shibatoken.com/',
+  ),
   cake: new Token(
     MAINNET,
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',

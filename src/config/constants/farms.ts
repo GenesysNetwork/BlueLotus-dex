@@ -82,6 +82,26 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.cake,
     quoteToken: serializedTokens.wbnb,
   },
+  // {
+  //   pid: 9, // Masterchef version 2
+  //   lpSymbol: 'SHIB-BNB LP',
+  //   lpAddresses: {
+  //     97: '',
+  //     56: '0x90257d9687Ea252d415E67ef043dF683A16f6Cb', // shib-bnb lp
+  //   },
+  //   token: serializedTokens.shib,
+  //   quoteToken: serializedTokens.wbnb,
+  // },
+  {
+    pid: 10, // Masterchef version 2
+    lpSymbol: 'GSYS-SHIB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xD7678896A82d5E5508Fa407bD5cAD44C09eC37ff', // gsys shib lp
+    },
+    token: serializedTokens.gsys,
+    quoteToken: serializedTokens.shib,
+  },
 
   // pid 3 on MCV1 = MASTERCHEF_PID_3_MOCKBEP20
 
