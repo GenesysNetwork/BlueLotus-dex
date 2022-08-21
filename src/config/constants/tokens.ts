@@ -39,6 +39,14 @@ export const mainnetTokens = defineTokens({
     'Shiba Token',
     'https://shibatoken.com/',
   ),
+  knb: new Token(
+    MAINNET,
+    '0x197dc4bfc82ad08E3FBaa930A869485236e6A792',
+    18,
+    'KNB',
+    'Kronobit Token',
+    'https://kronobit.org//',
+  ),
   cake: new Token(
     MAINNET,
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',

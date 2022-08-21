@@ -103,6 +103,17 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.gsys,
     isCommunity: false,
   },
+  {
+    pid: 11, // Masterchef version 2
+    lpSymbol: 'KNB-GSYS LP',
+    lpAddresses: {
+      97: '',
+      56: '0xfc68736f8a38677753b6c3dD909328E1D615a3c2', // gsys knb (kronobit) lp
+    },
+    token: serializedTokens.knb,
+    quoteToken: serializedTokens.gsys,
+    isCommunity: false,
+  },
 ].filter((f) => !!f.lpAddresses[CHAIN_ID])
 
 export default farms
