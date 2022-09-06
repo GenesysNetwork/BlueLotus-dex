@@ -112,7 +112,9 @@ export const BLOCKED_ADDRESSES: string[] = [
   '0xfbaebcb3c22ba9acb3a64eb0be82c9a46c56deea', // bots
   '0x0000000000008AfdAcc486225455281F614843e7', // bots
   '0x4d394E7bF612a5ad37Fa63134A228657f5cADF00', // bots
-  '0x4d394E7bF612a5ad37Fa63134A228657f5cADF00', // bots
+  '0xa2d335e471ed0d85a95cd16c357f38fa6dc13c46', // bots
+  '0x5b74bbae030d0e58c62cdc2b608487e877460c00', // bots
+  '0xccc8b3c9b7637c02a87b6ba3386cec9ec21cb2f3', // bots
 ]
 
 export { default as farmsConfig } from './farms'
