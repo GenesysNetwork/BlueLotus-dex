@@ -115,6 +115,23 @@ export const BLOCKED_ADDRESSES: string[] = [
   '0xa2d335e471ed0d85a95cd16c357f38fa6dc13c46', // bots
   '0x5b74bbae030d0e58c62cdc2b608487e877460c00', // bots
   '0xccc8b3c9b7637c02a87b6ba3386cec9ec21cb2f3', // bots
+  // 7 sep
+  '0xccc8b3c9b7637c02a87b6ba3386cec9ec21cb2f3',
+  '0xa2d335e471ed0d85a95cd16c357f38fa6dc13c46',
+  '0x1c84183e211a7e69ee455e6c7d88cebb2af685cd',
+  '0xaaa0ce46ef497c1b97e0d546070dae16585635b4',
+  '0x5b74bbae030d0e58c62cdc2b608487e877460c00',
+  '0x433449a9f3227ea11bddb0abfdd44c242870ba04',
+  '0xd8eb068c95a6a74e6608b8c368cdc7bebe800956',
+  '0x0000000000008afdacc486225455281f614843e7',
+  '0xd6ae230abae2b2d053af417ca8957ec58383867d',
+  '0x274b92e6573bd6d81abd02c80f2101eba87a1305',
+  '0x4903f5f3bbc7865725a5aa811f7e7b8a2c1b9871',
+  '0x9f2fdd8d7201f3c8095c53af8edced0f63539f80',
+  '0x9a703326e8ac3f2a08fe012f36a1ec8b0d2d47a1',
+  '0xfbaebcb3c22ba9acb3a64eb0be82c9a46c56deea',
+  '0xb61d6a29496fce80a6ff97ee9758e35edd9b893a',
+  '0xfa20dfae69d86a0bd64a391557bd2fb60bef8f1d',
 ]
 
 export { default as farmsConfig } from './farms'
