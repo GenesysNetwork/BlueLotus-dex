@@ -62,7 +62,7 @@ const Grid = styled.div`
   }
 `
 
-const emissionsPerBlock = 3.0
+const emissionsPerBlock = 0.3
 
 /**
  * User (Planet Finance) built a contract on top of our original manual CAKE pool,
@@ -170,7 +170,7 @@ const CakeDataRow = () => {
       <StyledColumn style={{ gridArea: 'f' }}>
         <Text color="textSubtle">{t('Current emissions')}</Text>
 
-        <Heading scale="lg">{t('%cakeEmissions%/block', { cakeEmissions: emissionsPerBlock })}</Heading>
+        <Heading scale="lg">{t('%cakeEmissions% / block', { cakeEmissions: emissionsPerBlock })}</Heading>
       </StyledColumn>
     </Grid>
   )
