@@ -5,15 +5,15 @@ import {
   SwapFillIcon,
   EarnFillIcon,
   EarnIcon,
-  TrophyIcon,
-  TrophyFillIcon,
+  // TrophyIcon,
+  // TrophyFillIcon,
   NftIcon,
   NftFillIcon,
   MoreIcon,
 } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
-import { nftsBaseUrl } from 'views/Nft/market/constants'
-import { perpLangMap } from 'utils/getPerpetualLanguageCode'
+// import { nftsBaseUrl } from 'views/Nft/market/constants'
+// import { perpLangMap } from 'utils/getPerpetualLanguageCode'
 import { DropdownMenuItems } from '@pancakeswap/uikit/src/components/DropdownMenu/types'
 
 export type ConfigMenuDropDownItemsType = DropdownMenuItems & { hideSubNav?: boolean }
@@ -124,16 +124,23 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     ],
   },
   {
-    label: 'Info',
+    label: 'Analytics',
+    href: '/info',
+    icon: MoreIcon,
+    hideSubNav: true,
+    items: [],
+  },
+  {
+    label: '...',
     href: '#',
     icon: MoreIcon,
     hideSubNav: true,
     items: [
-      {
-        label: t('Analitycs'),
-        // href: '/info',
-        href: '#',
-      },
+      // {
+      //   label: t('Analitycs'),
+      //   // href: '/info',
+      //   href: '#',
+      // },
       {
         label: t('IFO'),
         href: '#',

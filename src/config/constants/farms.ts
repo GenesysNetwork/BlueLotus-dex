@@ -91,6 +91,7 @@ const farms: SerializedFarmConfig[] = [
     },
     token: serializedTokens.shib,
     quoteToken: serializedTokens.wbnb,
+    // isFinished: true,
   },
   {
     pid: 10, // Masterchef version 2
