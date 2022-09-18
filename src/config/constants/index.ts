@@ -132,6 +132,9 @@ export const BLOCKED_ADDRESSES: string[] = [
   '0xfbaebcb3c22ba9acb3a64eb0be82c9a46c56deea',
   '0xb61d6a29496fce80a6ff97ee9758e35edd9b893a',
   '0xfa20dfae69d86a0bd64a391557bd2fb60bef8f1d',
+  '0x0000000000008AfdAcc486225455281F614843e7',
+  '0x1420A3939A43962480EC1b2288cC5AA27CdEAC1d',
+  '0x270eb2621EB213A0600A03151af8f9bE520E56D4',
 ]
 
 export { default as farmsConfig } from './farms'
