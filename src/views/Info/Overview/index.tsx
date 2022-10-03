@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { useState, useMemo, useEffect } from 'react'
 import styled from 'styled-components'
 import { Flex, Box, Text, Heading, Card, Skeleton } from '@pancakeswap/uikit'
@@ -17,6 +18,8 @@ import {
   useProtocolTransactions,
 } from 'state/info/hooks'
 import TransactionTable from 'views/Info/components/InfoTables/TransactionsTable'
+// only for test
+// import { protocolDataFile, chartDataFile } from './data'
 
 export const ChartCardsContainer = styled(Flex)`
   justify-content: space-between;
@@ -45,7 +48,11 @@ const Overview: React.FC = () => {
   const [volumeDateHover, setVolumeDateHover] = useState<string | undefined>()
 
   const [protocolData] = useProtocolData()
+  // console.log("🚀 protocolData", protocolData);
+
   const [chartData] = useProtocolChartData()
+  // console.log("🚀  chartData", chartData);
+
   const [transactions] = useProtocolTransactions()
 
   const currentDate = new Date().toLocaleString(locale, { month: 'short', year: 'numeric', day: 'numeric' })
