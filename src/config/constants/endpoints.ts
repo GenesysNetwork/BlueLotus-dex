@@ -30,6 +30,7 @@ export const GALAXY_NFT_CLAIMING_API = 'https://graphigo.prd.galaxy.eco/query'
 export const INFO_CLIENT = 'https://api.thegraph.com/subgraphs/name/iv7dev/exchange-v2' // 'https://api.thegraph.com/subgraphs/name/iv7dev/bl-exchange'
 export const INFO_CLIENT2 = 'https://api.thegraph.com/subgraphs/name/golfinance/gol-exchange'
 //  'https://api.thegraph.com''/subgraphs/name/iv7dev/exchange-v2'
+// https://api.thegraph.com/subgraphs/name/iv7dev/exchange-v3 --- nothing
 
 // 'https://api.thegraph.com/subgraphs/name/golfinance/gol-exchange'//
 //  export const INFO_CLIENT = 'https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2'

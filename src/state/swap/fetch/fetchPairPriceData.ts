@@ -1,5 +1,5 @@
 import requestWithTimeout from 'utils/requestWithTimeout'
-import { infoClient, infoClient2 } from 'utils/graphql'
+import { infoClient } from 'utils/graphql'
 import lastPairDayId from '../queries/lastPairDayId'
 import pairHourDatas from '../queries/pairHourDatas'
 import pairDayDatasByIdsQuery from '../queries/pairDayDatasByIdsQuery'
@@ -18,7 +18,7 @@ import pairHourDatasByIds from '../queries/pairHourDatasByIds'
 import lastPairHourId from '../queries/lastPairHourId'
 
 const fetchPairPriceData = async ({ pairId, timeWindow }: fetchPairDataParams) => {
-  const client = infoClient2
+  const client = infoClient
 
   try {
     switch (timeWindow) {
