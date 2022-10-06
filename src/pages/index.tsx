@@ -21,7 +21,17 @@ const IndexPage = ({ totalTx30Days, addressCount30Days, tvl }) => {
         },
       }}
     >
-      <Home />
+      {/* <Home /> */}
+      <h1>DISCULPE LAS MOLESTIAS</h1>
+      <p>
+        . @BNBchain is currently under maintenance. We will suspend all deposits and withdrawals via BNB chain
+        temporarily until there are further updates. We apologise for the inconvenience. Thank you for your patience!
+      </p>
+      <p>
+        . @BNBchain se encuentra actualmente en mantenimiento. Suspenderemos todos los depósitos y retiros a través de
+        la cadena BNB temporalmente hasta que haya más actualizaciones. Pedimos disculpas por las molestias. ¡Gracias
+        por su paciencia!
+      </p>
     </SWRConfig>
   )
 }
