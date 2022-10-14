@@ -31,6 +31,14 @@ export const mainnetTokens = defineTokens({
     'Genesys Token',
     'https://bluelotusdao.org/',
   ),
+  matic: new Token(
+    MAINNET,
+    '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
+    18,
+    'MATIC',
+    'Matic Token',
+    'https://polygon.technology/',
+  ),
   shib: new Token(
     MAINNET,
     '0x2859e4544C4bB03966803b044A93563Bd2D0DD4D',

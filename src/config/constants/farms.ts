@@ -115,6 +115,17 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.gsys,
     isCommunity: false,
   },
+  {
+    pid: 12, // Masterchef version 2
+    lpSymbol: 'MATIC-GSYS LP',
+    lpAddresses: {
+      97: '',
+      56: '0x3bA8335cd1Ebf76258d137d5F6BC4A3e45C5208f', // matic gsys lp
+    },
+    token: serializedTokens.matic,
+    quoteToken: serializedTokens.gsys,
+    isCommunity: false,
+  },
 ].filter((f) => !!f.lpAddresses[CHAIN_ID])
 
 export default farms
