@@ -41,11 +41,11 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         label: t('Liquidity'),
         href: '/liquidity',
       },
-      // {
-      //   label: t('Perpetual'),
-      //   href: `https://perp.genesys.network/${perpLangMap(languageCode)}/futures/BTCUSDT`,
-      //   type: DropdownMenuItemType.EXTERNAL_LINK,
-      // },
+      {
+        label: t('Perpetual'),
+        href: `https://perpetualbluelotusdao.org/`,
+        type: DropdownMenuItemType.EXTERNAL_LINK,
+      },
     ],
   },
   {
