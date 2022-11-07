@@ -126,17 +126,17 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.gsys,
     isCommunity: false,
   },
-  {
-    pid: 13, // Masterchef version 2
-    lpSymbol: 'KNB-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0xE5698536ebBAecc20E729f6f378fA4DD65DF9657', // matic gsys lp
-    },
-    token: serializedTokens.knb,
-    quoteToken: serializedTokens.busd,
-    isCommunity: false,
-  },
+  // {
+  //   pid: 13, // Masterchef version 2
+  //   lpSymbol: 'KNB-BUSD LP',
+  //   lpAddresses: {
+  //     97: '',
+  //     56: '0xE5698536ebBAecc20E729f6f378fA4DD65DF9657', // matic gsys lp
+  //   },
+  //   token: serializedTokens.knb,
+  //   quoteToken: serializedTokens.busd,
+  //   isCommunity: false,
+  // },
 ].filter((f) => !!f.lpAddresses[CHAIN_ID])
 
 export default farms
