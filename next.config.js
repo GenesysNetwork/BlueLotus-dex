@@ -90,43 +90,53 @@ const config = {
   async redirects() {
     return [
       {
-        source: '/send',
-        destination: '/swap',
+        source: '/swap',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/swap/:outputCurrency',
-        destination: '/swap?outputCurrency=:outputCurrency',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/create/:currency*',
-        destination: '/add/:currency*',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/farms/archived',
-        destination: '/farms/history',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/pool',
-        destination: '/liquidity',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/pools',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/farms',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/staking',
-        destination: '/pools',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/syrup',
-        destination: '/pools',
+        destination: '/',
         permanent: true,
       },
       {
         source: '/collectibles',
-        destination: '/nfts',
+        destination: '/',
         permanent: true,
       },
     ]
