@@ -22,32 +22,32 @@ export type ConfigMenuItemsType = Omit<MenuItemsType, 'items'> & { hideSubNav?: 
 }
 
 const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType[] = (t, languageCode) => [
-  // {
-  //   label: t('Trade'),
-  //   icon: SwapIcon,
-  //   fillIcon: SwapFillIcon,
-  //   href: '/swap',
-  //   showItemsOnMobile: false,
-  //   items: [
-  //     {
-  //       label: t('Swap'),
-  //       href: '/swap',
-  //     },
-  //     // {
-  //     //   label: t('Limit'),
-  //     //   href: '/limit-orders',
-  //     // },
-  //     {
-  //       label: t('Liquidity'),
-  //       href: '/liquidity',
-  //     },
-  //     {
-  //       label: t('Perpetual'),
-  //       href: `https://perpetualbluelotusdao.org/`,
-  //       type: DropdownMenuItemType.EXTERNAL_LINK,
-  //     },
-  //   ],
-  // },
+  {
+    label: t('Trade'),
+    icon: SwapIcon,
+    fillIcon: SwapFillIcon,
+    href: '/swap',
+    showItemsOnMobile: false,
+    items: [
+      // {
+      //   label: t('Swap'),
+      //   href: '/swap',
+      // },
+      // {
+      //   label: t('Limit'),
+      //   href: '/limit-orders',
+      // },
+      {
+        label: t('Liquidity'),
+        href: '/liquidity',
+      },
+      {
+        label: t('Perpetual'),
+        href: `https://perpetualbluelotusdao.org/`,
+        type: DropdownMenuItemType.EXTERNAL_LINK,
+      },
+    ],
+  },
   {
     label: t('Earn'),
     href: '#',
