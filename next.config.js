@@ -106,7 +106,7 @@ const config = {
       },
       {
         source: '/farms/archived',
-        destination: '/',
+        destination: '/farms/history',
         permanent: true,
       },
       {
@@ -115,18 +115,8 @@ const config = {
         permanent: true,
       },
       {
-        source: '/pools',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/farms',
-        destination: '/',
-        permanent: true,
-      },
-      {
         source: '/staking',
-        destination: '/',
+        destination: '/pools',
         permanent: true,
       },
       {
